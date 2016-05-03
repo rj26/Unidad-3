@@ -16,7 +16,8 @@
         android:text="Introduzca el titulo del archivo:"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
     <EditText
         android:id="@+id/edtx1"
         android:layout_width="wrap_content"
@@ -31,10 +32,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Espacio Utilizado"
+        android:text="Archivo:"
         android:layout_below="@+id/edtx1"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
     <EditText
         android:id="@+id/edtx2"
         android:layout_width="wrap_content"
@@ -44,7 +46,6 @@
         android:layout_below="@+id/txt2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#48e614"
         android:layout_above="@+id/btn1"
         android:layout_alignRight="@+id/edtx1"
         android:layout_alignEnd="@+id/edtx1"
@@ -57,7 +58,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="Guardar" />
+        android:onClick="Guardar"
+        android:textSize="20dp" />
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
@@ -66,5 +68,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="Cargar" />
+        android:onClick="Cargar"
+        android:textSize="20dp" />
 </RelativeLayout>
